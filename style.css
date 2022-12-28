@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+@media (min-width: 320px) {
+    .d-none {
+        display: none !important;
+    }
+
+    .text-hero h6 {
+        font-weight: 400;
+    }
+
+    .text-hero {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        z-index: 99;
+        color: #000;
+        text-align: left;
+        transform: translate(-50%, -50%);
+    }
+    
+    .img-hero {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        z-index: 99;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hamburger svg {
+        width: 30px;
+    }
+    
+    .hamburger {
+        cursor: pointer;
+    }
+
+    .top-login ul li {
+        position: absolute;
+        top: 2000%;
+        left: 20%;
+        z-index: 99;
+    }
+
+    .top-daftar ul li {
+        position: absolute;
+        top: 2000%;
+        left: 1%;
+        z-index: 99;
+    }
+    
+    .top-menu ul li a {
+        color: #9D00FE;    ;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    
+    .top-menu ul li {
+        text-align: center;
+        margin: 10px 0;
+        position: relative;
+    }
+    
+    .btn-rounded-full {
+        
+        padding: 8px 19px;
+        border-radius: 50px;
+    }
+    
+    .top-menu ul li.active:before {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        left: 50%;
+        height: 3px;
+        background-color: purple;
+        width: 35%;
+        transform: translateX(-50%);
+    }
+    
+    .top-menu .btn-rounded-full {
+        margin-top: 10px;
+        display: inline-block;
+    }
+    
+    .bg-white {
+        background-color: #D9D9D9;
+    }
+    
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999;
+    }
+    
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9999999;
+        cursor: pointer;
+    }
+    
+    img {
+        max-width: 100%
+    }
+    
+    .close svg {
+        width: 30px;
+    }
+    
+    
+    .top-menu {
+        position: fixed;
+        top: 0;
+        right: -100vw;
+        bottom: 0;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-hero h6 {
+        font-size: 24px;
+    }
+    
+    .text-hero h4 {
+        font-size: 30px;
+    }
+
+    
+
+    .swiper-slide {
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 992px) {
+    .hamburger {
+        display: none;
+    }
+    .top-menu {
+        right: 0;
+        position: relative;
+        width: auto;
+        background-color: transparent;
+    }
+    
+    .top-menu ul li {
+        display: inline-block;
+        margin: 0 0 0 10px;
+    }
+    
+    .close {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .text-hero h6 {
+        font-size: 24px;
+    }
+    
+    .text-hero h4 {
+        font-size: 30px;
+        line-height: 24px;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .top-login ul li {
+        position: absolute;
+        top: 3000%;
+        left: 30%;
+        z-index: 99;
+    }
+
+    .top-daftar ul li {
+        position: absolute;
+        top: 3000%;
+        left: 11%;
+        z-index: 99;
+    }
+
+    .swiper-slide {
+        height: 700px;
+        object-fit: cover;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .swiper-slide {
+        height: 900px;
+    }
+}
+
+

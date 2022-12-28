@@ -1,0 +1,18 @@
+<table border ="1">
+            <thead>
+                <tr>
+                    <td>JUDUL</td>
+                    <td>Level</td>
+                    <td>KATEGORI</td>
+                    <td>Tambahan</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Matematika</td>
+                    <td>Medium</td>
+                    <td>Matrix</td>
+                    <td>Tambahan</td>
+                </tr>
+            </tbody>
+        </table>
